@@ -2,7 +2,7 @@
   "name": "my-app",
   "description": "This is my first app",
   "scripts": {
-    "lint": "npx eslint simpleCalc.js",
+    "lint": "prettier --write simpleCalc.js",
     "style": "prettier --check .",
     "format": "prettier --write .",
     "test": "jest",
