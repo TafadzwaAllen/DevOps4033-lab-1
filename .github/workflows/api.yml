@@ -1,5 +1,9 @@
 name: Secret API Key
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 jobs:
   retrieve-secret:
     runs-on: ubuntu-latest
